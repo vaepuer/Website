@@ -1,5 +1,17 @@
-body{
-    margin: 0;
-    background: pink;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
     text-align: center;
+    -webkit-text-fill-color: black;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background: rgb(255, 254, 253);
+    border: 5px dashed rgb(206, 12, 12);
 }
