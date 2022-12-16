@@ -4,17 +4,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel ="stylesheet" href="styles.css">
+    <link rel ="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1>Tedd Giles</h1>
     <div>
         <img src="Files/profile.png" alt="profile.png" width="120" height="120">
     </div>
-    <a href = "/Website/contact.html">Click Here to see my CV!</a>
+    <div> <!-- CV Link -->
+    <style>
+        a:link {
+          color: green;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a:hover {
+          color: red;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
+        <p></p>
+        <a href = "/Website/contact.html">Click Here to see my CV!</a>
+    </div>
+    
 
 <h1>Hello World</h1>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, totam, dolorem cum possimus unde eaque illo nesciunt quis beatae sequi dicta cumque quod! Eius quisquam fugiat quos, vero rerum totam?</p>
-
+<p class="text">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, totam, dolorem cum possimus unde eaque illo nesciunt quis beatae sequi dicta cumque quod! Eius quisquam fugiat quos, vero rerum totam?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, totam, dolorem cum possimus<span class="dots">...</span>  <span class="moreText">
+    unde eaque illo nesciunt quis beatae sequi dicta cumque quod! Eius quisquam fugiat quos, vero rerum totam?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, totam, dolorem cum possimus unde eaque illo nesciunt quis beatae sequi dicta cumque quod! Eius quisquam fugiat quos, vero rerum totam?</span></p>
+<button class="read-more-btn">Read More</button>
+<script src="./main.js"></script>
 </body>
 </html>
