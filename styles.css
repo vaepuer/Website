@@ -33,16 +33,3 @@ body
 {
     display: none;
 }
-.hover_img
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-
-
-}
-.image:hover .hover_img
-{
-    display: inline;
-}
